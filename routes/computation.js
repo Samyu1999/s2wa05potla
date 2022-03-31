@@ -15,10 +15,10 @@ router.get('/', function (req, res, next) {
 
   res.render('computation', {
     title: 'Computation',
-    value1: `Math.abs() applied to ` + x + ` is ${Math.abs(x,x).toFixed(2)}`,
-    value2: `Math.acos() applied to ` + x + ` is ${Math.acos(x)}`,
-    value3: `Math.sin() applied to ` + x + ` is ${Math.sin(x).toFixed(2)}`,
-    value4: `Math.sinh() applied to ` + x + ` is ${Math.sinh(x)}`
+    value1: `Math.atan() applied to ` + x + ` is ${Math.atan(x,x).toFixed(2)}`,
+    value2: `Math.exp() applied to ` + x + ` is ${Math.exp(x)}`,
+    value3: `Math.expm1() applied to ` + x + ` is ${Math.expm1(x).toFixed(2)}`,
+    
   });
 });
 
